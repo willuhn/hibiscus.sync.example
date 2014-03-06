@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<plugin xmlns="http://www.willuhn.de/schema/jameica-plugin"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.willuhn.de/schema/jameica-plugin http://www.willuhn.de/schema/jameica-plugin-1.2.xsd"
+        name="hibiscus.sync.example" version="1.0.0" class="org.jameica.hibiscus.sync.example.Plugin">
+
+  <description>Hibiscus-Support für Beispiel-Bank</description>
+  <url></url>
+  <homepage></homepage>
+  <license></license>
+
+  <requires jameica="2.6.0+">
+    <import plugin="hibiscus" version="2.6.0+" />
+  </requires>
+
+  <classfinder>
+    <include>hibiscus\.sync\.example\.jar</include>
+    <include>.*\.class</include>
+  </classfinder>
+
+</plugin>
